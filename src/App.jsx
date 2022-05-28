@@ -13,6 +13,9 @@ export function App() {
   const [value, setValue] = React.useState();
   const [inputValue, setInputValue] = React.useState();
   return (
+    //  SE ENVUELVE TODO EN UN CONTAINER DE MATERIAL UI
+    //   EL CUAL PASANDOLE POR PROPS "MAX WIDTH" ELEGIS EL TAMAÑO TOTAL
+    //   QUE QUERS QUE OCUPE TU WEB
     <Container maxWidth="xl">
       <Box sx={{ flexGrow: 1, marginBottom: 12 }}>
         <AppBar color="primary" position="fixed">
