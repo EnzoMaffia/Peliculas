@@ -1,3 +1,4 @@
+import { Rating } from "@mui/material";
 import ImageListItem from "@mui/material/ImageListItem";
 import ImageListItemBar from "@mui/material/ImageListItemBar";
 
@@ -17,7 +18,14 @@ export function PelisCard({ movie }) {
           backgroundColor: "rgba(0, 0, 0, 0.5)",
         }}
         title={movie.title}
-        subtitle={<span>Release: {movie.release_date}</span>}
+        subtitle={
+          <Rating
+            name="read-only"
+            value={movie.vote_average / 2}
+            precision={0.5}
+            readOnly
+          />
+        }
         position="below"
       />
     </ImageListItem>

@@ -5,8 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(../public/picante.jpg);
-  background-size: cover;
+  background-color: rgb(6, 98, 180);
   color: aliceblue;
 }
 
