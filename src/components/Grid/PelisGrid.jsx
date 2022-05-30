@@ -1,6 +1,6 @@
 import ImageList from "@mui/material/ImageList";
+import { PelisCard } from "components/Card/PelisCard";
 import movies from "../../movies.json";
-import { PelisCard } from "../Card/PelisCard";
 
 export function PelisGrid({ selectedMovie }) {
   console.log(selectedMovie);
